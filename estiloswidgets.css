@@ -1,0 +1,105 @@
+.textoderecha{
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+    position: relative;
+    background-color: navy;
+}
+.imagenlateralizquierdo {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+
+}
+.descripcion{
+    text-align: left;
+    color: whitesmoke;
+    align-content: center;
+    width: 100%;
+padding: 5%;
+margin: 10%;
+font-size: larger;
+}
+.imagengrisl{
+    position: relative;
+  
+    overflow: visible;
+    -ms-flex-item-align: center;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+.piedefoto
+    {
+    color: whitesmoke;
+    font-size: xx-small;
+}
+@media screen and (min-width: 1440px) {
+    .imagenlateralizquierdo {
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding: 0;   
+    }
+    .descripcion{
+        text-align: left;
+        color: whitesmoke;
+        align-content: center;
+        width: 100%;
+    padding: 5%;
+    margin: 10%;
+    font-size:2em;
+    font-weight: 200;
+    font-display: block;
+    line-height: 1.8em;
+    }
+}
+@media screen and (min-width: 1920px){
+    .imagenlateralizquierdo {
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 0;
+    
+    }
+}
+@media screen and (min-width: 991px){
+
+}
+@media screen and (max-width: 767px){
+    .imagenlateralizquierdo {
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        width: 74%;
+        height: auto;
+        margin: auto;
+        padding: 0;
+    
+    }
+}
+@media screen and (max-width: 479px) {
+    .imagenlateralizquierdo {
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        width: 85%;
+        height: auto;
+        margin: auto;
+        padding: 0;
+    
+    }
+}
