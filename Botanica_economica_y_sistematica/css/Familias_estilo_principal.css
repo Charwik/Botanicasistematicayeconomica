@@ -163,8 +163,8 @@ sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}fi
 
 .headergrid {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   -ms-grid-columns: 0.5fr 1fr 0.5fr;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   -ms-grid-rows: auto;
@@ -1900,6 +1900,10 @@ sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}fi
     align-self: stretch;
   }
   .imagenalta { height: 30%; width: auto;}
+  .textoheader {
+    position: relative;
+    margin-left: 0px;
+  }
   .centered-container {
     max-width: 1200px;
     padding-right: 20px;
@@ -2165,6 +2169,7 @@ sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}fi
 @media screen and (max-width: 767px) {
   .headergrid {
     display: block;
+    padding: 15px;
   }
   .imagenalta { height: 15%; width: auto;}
   .container {
@@ -2213,7 +2218,7 @@ sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}fi
     display: block;
     margin-right: auto;
     margin-left: auto;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .tarjetasgrid {
@@ -2559,7 +2564,15 @@ sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}fi
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    font-size: 4em;
+    font-size: 2.3em;
+  }
+  .heading-3{
+    width: 100%;
+    min-width: 80%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 1.2em;
   }
 
   .doblecolumnainicio {
