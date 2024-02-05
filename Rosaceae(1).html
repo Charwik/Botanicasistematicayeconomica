@@ -17,7 +17,11 @@
    <!--JS-->
    <script type="text/javascript" src="./Botanica_economica_y_sistematica/js/jquery-3.js"></script>
    <script type="text/javascript" src="./Botanica_economica_y_sistematica/js/jquerry4.js"></script>
-    
+  <!--boostrap-->
+  <link href="./Botanica_economica_y_sistematica/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
   
     
 </head>
@@ -41,22 +45,24 @@
           </div>
         </div>
       </header>
-      <div data-animation="default" data-collapse="small" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-        <div class="container w-container">
-          <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="index.html" class="nav-link w-nav-link" style="max-width: 940px;">Inicio</a>
-            <a href="familias.html" class="nav-link w-nav-link" style="max-width: 940px;">Familias</a>
-            <a href="Bibliografia.html" class="nav-link w-nav-link" style="max-width: 940px;">Bibliografía</a>
-          </nav>
-          <div class="menu-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
-            <div class="icon w-icon-nav-menu">
-            </div>
-          </div>
-        </div>
-        <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0">
-          
-        </div>
+
+
+      <div data-animation="default" data-collapse="small" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbarra w-nav">
+    <div class="container2 w-container" style="padding-top: 10px;padding-bottom: 10px;margin-right: 5%;">
+      <nav role="navigation" class="nave-menu w-nav-menu">
+      <a href="index.html" class="nave-link w-nav-link" style="max-width: 940px;">Inicio</a>
+      <a href="familias.html" class="nave-link w-nav-link" style="max-width: 940px;">Familias</a>
+      <a href="bibliografias.html" class="nave-link w-nav-link" style="max-width: 940px;">Bibliografía</a>
+      </nav>
+      <div class="menu-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+      <div class="icon w-icon-nav-menu">
       </div>
+      </div>
+    </div>
+    <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0">
+      
+    </div>
+    </div>
 
       <main class="main wf-section">
 
@@ -120,7 +126,7 @@
                             "items": 
                             [
                               {
-                                "caption": "R. Azcárraga",
+                                "caption": "Fotografía tomada por la Doctora Azcarraga",
                                 "fileName": "1.jpg",
                                 "origFileName": "1.jpg",
                                 "url": "./Imagenes/Rosaceae/1.jpg",
@@ -150,7 +156,7 @@
                             <img      src="./Imagenes/Rosaceae/2.jpg" loading="lazy" alt="" class="image-3">
                             <script type="application/json" class="w-json">
                                 { "items": [{
-                            "caption": "R. Azcárraga",
+                            "caption": "Fotografía tomada por la Doctora Azcarraga",
                             "url": "./Imagenes/Rosaceae/2.jpg",
                             "type": "image",
                             "fileSize": 1308256
@@ -166,80 +172,94 @@
           <div class="w-layout-grid doblecolumnainicio">
             <div id="w-node-_158b7e47-e969-3fb7-b088-e6b8a6010d13-db3e027d" class="contenedorcolumnaizquierda">
               <p class="parrafocolumnasreconocimiento">
-                        Hojas: alternas, simples o compuestas, algunas veces con dientes glandulares con estípulas pareadas a menudo adnadas al pecíolo.
+                        Hojas: alterna, simples o compuestas, algunas veces con dientes glandulares con estípulas pareadas a menudo adnadas al pecíolo.
                     </p>
                 </div>
                 <div id="w-node-_158b7e47-e969-3fb7-b088-e6b8a6010d18-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                        <div class="w-slider-mask" id="w-slider-mask-0">
-                          <div class="slide-3 w-slide" aria-label="1 of 3" role="group" aria-hidden="true"   >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img     alt="" src="./Imagenes/Rosaceae/3.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                            <script type="application/json" class="w-json" aria-hidden="true">
-                              {
-                                "items": 
-                                [
+
+
+                  <div id="carouselRosaceae1" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselRosaceae1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae1" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae1" data-bs-slide-to="2"></button>
+           
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/3.jpg" class="d-block w-100, image-3" alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
                                   {
-                                    "caption": "R. Azcárraga",
-                                    "fileName": "3.jpg",
-                                    "origFileName": "3.jpg",
-                                    "url": "./Imagenes/Rosaceae/3.jpg",
-                    
-                                    "type": "image",
-                                    "fileSize": 1308256
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/3.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
                                   }
-                                ]
-                              }
-                            </script>
-                            </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="2 of 3" role="group"  >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/4.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "R. Azcárraga",
-                                "url": "./Imagenes/Rosaceae/4.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
                                 </script>
-                                </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="3 of 3" role="group"  >
-                              <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                  <img      src="./Imagenes/Rosaceae/5.jpg" loading="lazy" alt="" class="image-3">
-                                  <script type="application/json" class="w-json">
-                                      { "items": [{
-                                  "caption": "R. Azcárraga",
-                                  "url": "./Imagenes/Rosaceae/5.jpg",
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                      } ] }
-                                  </script>
-                                  </a>
-                              </div>
-                                                           
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                            </div>
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 3.</div>
-                            </div>
-                            <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                                <div class="w-icon-slider-left"></div>
-                            </div>
-                            <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                                <div class="w-icon-slider-right"></div>
-                            </div>
-                            <div class="w-slider-nav w-round">
-                            <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 3" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            
-                            </div>
-                        </div>
+                        </a>
+                      </div>
+                     
+                     
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/4.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/4.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/5.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/5.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      
+                      
+                      
+        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    
                     </div>
                 </div>
             </div>
@@ -255,74 +275,88 @@
   
   
                   <div id="w-node-_148ae3a7-5ca9-18e5-2ddf-5556c3ceab8c-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                      <div class="w-slider-mask" id="w-slider-mask-0">
-                        <div class="slide-3 w-slide" aria-label="1 of 3" role="group" aria-hidden="true"   >
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                          <img     alt="" src="./Imagenes/Rosaceae/6.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                          <script type="application/json" class="w-json" aria-hidden="true">
-                            {
-                              "items": 
-                              [
-                                {
-                                  "caption": "R. Azcárraga",
-                                  "fileName": "6.jpg",
-                                  "origFileName": "6.jpg",
-                                  "url": "./Imagenes/Rosaceae/6.jpg",
-                  
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                }
-                              ]
-                            }
-                          </script>
-                          </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="2 of 3" role="group"  >
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                              <img      src="./Imagenes/Rosaceae/7.jpg" loading="lazy" alt="" class="image-3">
-                              <script type="application/json" class="w-json">
-                                  { "items": [{
-                              "caption": "R. Azcárraga",
-                              "url": "./Imagenes/Rosaceae/7.jpg",
-                              "type": "image",
-                              "fileSize": 1308256
-                                  } ] }
-                              </script>
-                              </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="3 of 3" role="group"  >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/8.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "R. Azcárraga",
-                                "url": "./Imagenes/Rosaceae/8.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
-                                </script>
-                                </a>
-                            </div>
-  
-  
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                          </div>
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 3.</div>
-                          </div>
-                          <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                              <div class="w-icon-slider-left"></div>
-                          </div>
-                          <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                              <div class="w-icon-slider-right"></div>
-                          </div>
-                          <div class="w-slider-nav w-round">
-                          <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 2" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 2" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          </div>
+                    <div id="carouselRosaceae2" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselRosaceae2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae2" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae2" data-bs-slide-to="2"></button>
+             
                       </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/6.jpg" class="d-block w-100, image-3" alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/6.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                       
+                       
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/7.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/7.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/8.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/8.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        
+                        
+                        
+          
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    
                   </div>
               </div>
           </div>
@@ -336,77 +370,88 @@
                     </p>
                 </div>
                 <div id="w-node-_158b7e47-e969-3fb7-b088-e6b8a6010d18-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                        <div class="w-slider-mask" id="w-slider-mask-0">
-
-                          <div class="slide-3 w-slide" aria-label="1 of 3" role="group" aria-hidden="true"   >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img     alt="" src="./Imagenes/Rosaceae/9.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                            <script type="application/json" class="w-json" aria-hidden="true">
-                              {
-                                "items": 
-                                [
+                  <div id="carouselRosaceae3" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselRosaceae3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae3" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae3" data-bs-slide-to="2"></button>
+           
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/9.jpg" class="d-block w-100, image-3" alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
                                   {
-                                    "caption": "R. Azcárraga",
-                                    "fileName": "9.jpg",
-                                    "origFileName": "9.jpg",
-                                    "url": "./Imagenes/Rosaceae/9.jpg",
-                    
-                                    "type": "image",
-                                    "fileSize": 1308256
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/9.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
                                   }
-                                ]
-                              }
-                            </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="2 of 3" role="group"  >
+                                </script>
+                        </a>
+                      </div>
+                     
+                     
+                      <div class="carousel-item">
                         <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/10.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/10.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
-                            </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="3 of 3" role="group"  >
+                          <img src="./Imagenes/Rosaceae/10.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/10.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
                         <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/11.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/11.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
-                            </script>
-                            </a>
-                        </div>
-                            
-                                        
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                            </div>
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 3.</div>
-                            </div>
-                            <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                                <div class="w-icon-slider-left"></div>
-                            </div>
-                            <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                                <div class="w-icon-slider-right"></div>
-                            </div>
-                            <div class="w-slider-nav w-round">
-                            <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 3" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            </div>
-                        </div>
+                          <img src="./Imagenes/Rosaceae/11.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/11.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      
+                      
+                      
+        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    
                     </div>
                 </div>
       </div>
@@ -419,76 +464,88 @@
                     </p>
                 </div>
                 <div id="w-node-_148ae3a7-5ca9-18e5-2ddf-5556c3ceab8c-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                        <div class="w-slider-mask" id="w-slider-mask-0">
-
-                          <div class="slide-3 w-slide" aria-label="1 of 3" role="group" aria-hidden="true"   >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img     alt="" src="./Imagenes/Rosaceae/12.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                            <script type="application/json" class="w-json" aria-hidden="true">
-                              {
-                                "items": 
-                                [
+                  <div id="carouselRosaceae4" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselRosaceae4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae4" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae4" data-bs-slide-to="2"></button>
+           
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/12.jpg" class="d-block w-100, image-3" alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
                                   {
-                                    "caption": "R. Azcárraga",
-                                    "fileName": "9.jpg",
-                                    "origFileName": "9.jpg",
-                                    "url": "./Imagenes/Rosaceae/12.jpg",
-                    
-                                    "type": "image",
-                                    "fileSize": 1308256
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/12.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
                                   }
-                                ]
-                              }
-                            </script>
-                            </a>
-                        </div>
-                            <div class="slide-4 w-slide" aria-label="2 of 3" role="group"  >
-                              <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                  <img      src="./Imagenes/Rosaceae/13.jpg" loading="lazy" alt="" class="image-3">
-                                  <script type="application/json" class="w-json">
-                                      { "items": [{
-                                  "caption": "R. Azcárraga",
-                                  "url": "./Imagenes/Rosaceae/13.jpg",
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                      } ] }
-                                  </script>
-                                  </a>
-                              </div>
-                            <div class="slide-4 w-slide" aria-label="3 of 3" role="group"  >
-                              <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                  <img      src="./Imagenes/Rosaceae/14.jpg" loading="lazy" alt="" class="image-3">
-                                  <script type="application/json" class="w-json">
-                                      { "items": [{
-                                  "caption": "D. Trejo",
-                                  "url": "./Imagenes/Rosaceae/14.jpg",
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                      } ] }
-                                  </script>
-                                  </a>
-                              </div>                              
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                            </div>
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 3.</div>
-                            </div>
-                            <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                                <div class="w-icon-slider-left"></div>
-                            </div>
-                            <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                                <div class="w-icon-slider-right"></div>
-                            </div>
-                            <div class="w-slider-nav w-round">
-                            <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 3" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            
-                            </div>
-                        </div>
+                                </script>
+                        </a>
+                      </div>
+                     
+                     
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/13.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/13.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/14.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/14.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      
+                      
+                      
+        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae4" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae4" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    
                     </div>
                 </div>
       </div>          
@@ -504,79 +561,88 @@
   
   
                   <div id="w-node-_158b7e47-e969-3fb7-b088-e6b8a6010d18-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                      <div class="w-slider-mask" id="w-slider-mask-0">
-                        <div class="slide-3 w-slide" aria-label="1 of 3" role="group" aria-hidden="true"   >
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                          <img     alt="" src="./Imagenes/Rosaceae/15.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                          <script type="application/json" class="w-json" aria-hidden="true">
-                            {
-                              "items": 
-                              [
-                                {
-                                  "caption": "R. Azcárraga",
-                                 
-                                  "url": "./Imagenes/Rosaceae/15.jpg",
-                  
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                }
-                              ]
-                            }
-                          </script>
-                          </a>
-                          </div>
-                          
-                          <div class="slide-4 w-slide" aria-label="2 of 3" role="group"  >
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                              <img      src="./Imagenes/Rosaceae/16.jpg" loading="lazy" alt="" class="image-3">
-                              <script type="application/json" class="w-json">
-                                  { "items": [{
-                              "caption": "R. Azcárraga",
-                              "url": "./Imagenes/Rosaceae/16.jpg",
-                              "type": "image",
-                              "fileSize": 1308256
-                                  } ] }
-                              </script>
-                              </a>
-                          </div>
-                          
-                          <div class="slide-4 w-slide" aria-label="3 of 3" role="group"  >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/17.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "R. Azcárraga",
-                                "url": "./Imagenes/Rosaceae/17.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
-                                </script>
-                                </a>
-                            </div>
-                            
-  
-  
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                          </div>
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 3.</div>
-                          </div>
-                          <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                              <div class="w-icon-slider-left"></div>
-                          </div>
-                          <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                              <div class="w-icon-slider-right"></div>
-                          </div>
-                          <div class="w-slider-nav w-round">
-                          <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 3" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          
-                          </div>
+                    <div id="carouselRosaceae5" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselRosaceae5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae5" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae5" data-bs-slide-to="2"></button>
+             
                       </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/15.jpg" class="d-block w-100, image-3" alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/15.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                       
+                       
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/16.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/16.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/17.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/17.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        
+                        
+                        
+          
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae5" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae5" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    
                   </div>
               </div>
           </div> 
@@ -590,76 +656,88 @@
                     </p>
                 </div>
                 <div id="w-node-_148ae3a7-5ca9-18e5-2ddf-5556c3ceab8c-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                        <div class="w-slider-mask" id="w-slider-mask-0">
-                          <div class="slide-3 w-slide" aria-label="1 of 3" role="group" aria-hidden="true"   >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img     alt="" src="./Imagenes/Rosaceae/18.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                            <script type="application/json" class="w-json" aria-hidden="true">
-                              {
-                                "items": 
-                                [
+                  <div id="carouselRosaceae6" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselRosaceae6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae6" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae6" data-bs-slide-to="2"></button>
+           
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/18.jpg" class="d-block w-100, image-3" alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
                                   {
-                                    "caption": "R. Azcárraga",
-                                    "fileName": "19.jpg",
-                                    "origFileName": "19.jpg",
-                                    "url": "./Imagenes/Rosaceae/18.jpg",
-                    
-                                    "type": "image",
-                                    "fileSize": 1308256
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/18.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
                                   }
-                                ]
-                              }
-                            </script>
-                            </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="2 of 3" role="group"  >
-                                <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                    <img      src="./Imagenes/Rosaceae/19.jpg" loading="lazy" alt="" class="image-3">
-                                    <script type="application/json" class="w-json">
-                                        { "items": [{
-                                    "caption": "R. Azcárraga",
-                                    "url": "./Imagenes/Rosaceae/19.jpg",
-                                    "type": "image",
-                                    "fileSize": 1308256
-                                        } ] }
-                                    </script>
-                                    </a>
-                                </div>
-                            <div class="slide-4 w-slide" aria-label="3 of 3" role="group"  >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/20.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "D. Trejo",
-                                "url": "./Imagenes/Rosaceae/20.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
                                 </script>
-                                </a>
-                            </div>
-                            
-                                      
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                            </div>
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 3.</div>
-                            </div>
-                            <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                                <div class="w-icon-slider-left"></div>
-                            </div>
-                            <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                                <div class="w-icon-slider-right"></div>
-                            </div>
-                            <div class="w-slider-nav w-round">
-                            <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 3" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            </div>
-                        </div>
+                        </a>
+                      </div>
+                     
+                     
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/19.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/19.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/20.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/20.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      
+                      
+                      
+        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae6" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae6" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    
                     </div>
                 </div>
             </div>  
@@ -681,106 +759,129 @@
   
   
                   <div id="w-node-_158b7e47-e969-3fb7-b088-e6b8a6010d18-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                      <div class="w-slider-mask" id="w-slider-mask-0">
-                        <div class="slide-3 w-slide" aria-label="1 of 5" role="group" aria-hidden="true"   >
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                          <img     alt="" src="./Imagenes/Rosaceae/21.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                          <script type="application/json" class="w-json" aria-hidden="true">
-                            {
-                              "items": 
-                              [
-                                {
-                                  "caption": "R. Azcárraga",
-                                
-                                  "url": "./Imagenes/Rosaceae/21.jpg",
-                  
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                }
-                              ]
-                            }
-                          </script>
-                          </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="2 of 5" role="group"  >
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                              <img      src="./Imagenes/Rosaceae/22.jpg" loading="lazy" alt="" class="image-3">
-                              <script type="application/json" class="w-json">
-                                  { "items": [{
-                              "caption": "R. Azcárraga",
-                              "url": "./Imagenes/Rosaceae/22.jpg",
-                              "type": "image",
-                              "fileSize": 1308256
-                                  } ] }
-                              </script>
-                              </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="3 of 5" role="group"  >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/23.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "R. Azcárraga",
-                                "url": "./Imagenes/Rosaceae/23.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
-                                </script>
-                                </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="4 of 5" role="group"  >
-                                <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                    <img      src="./Imagenes/Rosaceae/24.jpg" loading="lazy" alt="" class="image-3">
-                                    <script type="application/json" class="w-json">
-                                        { "items": [{
-                                    "caption": "R. Azcárraga",
-                                    "url": "./Imagenes/Rosaceae/24.jpg",
-                                    "type": "image",
-                                    "fileSize": 1308256
-                                        } ] }
-                                    </script>
-                                    </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="5 of 5" role="group"  >
-                                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                        <img      src="./Imagenes/Rosaceae/25.jpg" loading="lazy" alt="" class="image-3">
-                                        <script type="application/json" class="w-json">
-                                            { "items": [{
-                                        "caption": "D. Trejo",
-                                        "url": "./Imagenes/Rosaceae/25.jpg",
-                                        "type": "image",
-                                        "fileSize": 1308256
-                                            } ] }
-                                        </script>
-                                        </a>
-                            </div>
-                            
-  
-  
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                          </div>
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 5 of 5.</div>
-                          </div>
-                          <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                              <div class="w-icon-slider-left"></div>
-                          </div>
-                          <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                              <div class="w-icon-slider-right"></div>
-                          </div>
-                          <div class="w-slider-nav w-round">
-                          <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 5" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 5" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 5" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 4 of 5" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 5 of 5" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                          </div>
+
+                    <div id="carouselRosaceae7" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselRosaceae7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae7" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae7" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae7" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae7" data-bs-slide-to="4"></button>
+             
                       </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/21.jpg" class="d-block w-100, image-3" alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/21.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                       
+                       
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/22.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/22.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/23.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/23.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/24.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/24.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/25.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por Daniela Trejo",
+                                          "url": "./Imagenes/Rosaceae/25.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        
+                        
+                        
+          
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae7" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae7" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                   
                   </div>
               </div>
       </div>
@@ -798,7 +899,7 @@
                                     <img      src="./Imagenes/Rosaceae/26.jpg" loading="lazy" alt="" class="image-3">
                                      <script type="application/json" class="w-json">
                                                 { "items": [{
-                                            "caption": "R. Azcárraga",
+                                            "caption": "Fotografía tomada por la Doctora Azcarraga",
                                             "url": "./Imagenes/Rosaceae/26.jpg",
                                             "type": "image",
                                             "fileSize": 1308256
@@ -826,7 +927,7 @@
                                 "items": 
                                 [
                                   {
-                                    "caption": "R. Azcárraga",
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
                                     "url": "./Imagenes/Rosaceae/27.jpg",
                     
                                     "type": "image",
@@ -848,7 +949,7 @@
                   <p class="parrafocolumnasrecoizq">
                     Algunas especies representativas son:
                      <br>
-                    <ul class="parrafocolumnasrecoizq"> 
+                    <ul class="parrafocolumnasreconocimiento">
                       <li style="font-style: italic;">
                         Pyrus communis
                       </li>
@@ -867,165 +968,203 @@
   
   
                   <div id="w-node-_148ae3a7-5ca9-18e5-2ddf-5556c3ceab8c-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                      <div class="w-slider-mask" id="w-slider-mask-0">
-                        <div class="slide-3 w-slide" aria-label="1 of 8" role="group" aria-hidden="true"   >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Pyrus communis</em></p>
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                          <img     alt="" src="./Imagenes/Rosaceae/28.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                          <script type="application/json" class="w-json" aria-hidden="true">
-                            {
-                              "items": 
-                              [
-                                {
-                                  "caption": "R. Azcárraga",
-                                
-                                  "url": "./Imagenes/Rosaceae/28.jpg",
-                  
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                }
-                              ]
-                            }
-                          </script>
-                          </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="2 of 8" role="group"  >
-                            <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Pyrus communis</em></p>
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                              <img      src="./Imagenes/Rosaceae/29.jpg" loading="lazy" alt="" class="image-3">
-                              <script type="application/json" class="w-json">
-                                  { "items": [{
-                              "caption": "R. Azcárraga",
-                              "url": "./Imagenes/Rosaceae/29.jpg",
-                              "type": "image",
-                              "fileSize": 1308256
-                                  } ] }
-                              </script>
-                              </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="3 of 8" role="group"  >
-                            <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Malus domestica</em></p>
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/30.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "R. Azcárraga",
-                                "url": "./Imagenes/Rosaceae/30.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
-                                </script>
-                                </a>
-                            </div>
-
-                          <div class="slide-4 w-slide" aria-label="4 of 8" role="group"  >
-                            <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Malus domestica</em></p>  
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                  <img      src="./Imagenes/Rosaceae/31.jpg" loading="lazy" alt="" class="image-3">
-                                  <script type="application/json" class="w-json">
-                                      { "items": [{
-                                  "caption": "R. Azcárraga",
-                                  "url": "./Imagenes/Rosaceae/31.jpg",
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                      } ] }
-                                  </script>
-                                  </a>
-                              </div>
-
-                          <div class="slide-4 w-slide" aria-label="5 of 8" role="group"  >
-                            <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Crataegus mexicana</em></p>  
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                    <img      src="./Imagenes/Rosaceae/32.jpg" loading="lazy" alt="" class="image-3">
-                                    <script type="application/json" class="w-json">
-                                        { "items": [{
-                                    "caption": "R. Azcárraga",
-                                    "url": "./Imagenes/Rosaceae/32.jpg",
-                                    "type": "image",
-                                    "fileSize": 1308256
-                                        } ] }
-                                    </script>
-                                    </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="6 of 8" role="group"  >
-                                <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Crataegus mexicana</em></p> 
-                                <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                    <img      src="./Imagenes/Rosaceae/33.jpg" loading="lazy" alt="" class="image-3">
-                                    <script type="application/json" class="w-json">
-                                        { "items": [{
-                                    "caption": "R. Azcárraga",
-                                    "url": "./Imagenes/Rosaceae/33.jpg",
-                                    "type": "image",
-                                    "fileSize": 1308256
-                                        } ] }
-                                    </script>
-                                    </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="7 of 8" role="group"  >
-                                <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                                <em> Eriobotrya japonica</em>
-                                </p>
-                                <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                    <img      src="./Imagenes/Rosaceae/34.jpg" loading="lazy" alt="" class="image-3">
-                                    <script type="application/json" class="w-json">
-                                        { "items": [{
-                                    "caption": "R. Azcárraga",
-                                    "url": "./Imagenes/Rosaceae/34.jpg",
-                                    "type": "image",
-                                    "fileSize": 1308256
-                                        } ] }
-                                    </script>
-                                    </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="8 of 8" role="group"  >
-                                <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                                <em>Eriobotrya japonica</em>
-                                </p>
-                                <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                    <img      src="./Imagenes/Rosaceae/35.jpg" loading="lazy" alt="" class="image-3">
-                                    <script type="application/json" class="w-json">
-                                        { "items": [{
-                                    "caption": "R. Azcárraga",
-                                    "url": "./Imagenes/Rosaceae/35.jpg",
-                                    "type": "image",
-                                    "fileSize": 1308256
-                                        } ] }
-                                    </script>
-                                    </a>
-                            </div>
-  
-  
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                          </div>
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 8 of 8.</div>
-                          </div>
-                          <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                              <div class="w-icon-slider-left"></div>
-                          </div>
-                          <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                              <div class="w-icon-slider-right"></div>
-                          </div>
-                          <div class="w-slider-nav w-round">
-                          <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 8" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 8" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 8" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 4 of 8" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 5 of 8" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 6 of 8" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 7 of 8" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 8 of 8" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          </div>
+                    <div id="carouselRosaceae8" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselRosaceae8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae8" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae8" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae8" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae8" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae8" data-bs-slide-to="5"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae8" data-bs-slide-to="6"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae8" data-bs-slide-to="7"></button>
+             
                       </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Pyrus communis</em></p>
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/28.jpg" class="d-block w-100, image-3" alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/28.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+
+                        <div class="carousel-item">
+                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                            <em>Pyrus communis</em></p>
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/29.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/29.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Malus domestica</em></p>
+                           
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/30.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/30.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Malus domestica</em></p>  
+                           
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/31.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/31.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Crataegus mexicana</em></p>  
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">  
+                            <img src="./Imagenes/Rosaceae/32.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/32.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;"><em>Crataegus mexicana</em></p>               
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">  
+                            <img src="./Imagenes/Rosaceae/33.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/33.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                            <em>Eriobotrya japonica</em>
+                            </p>
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/34.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/34.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                            <em>Eriobotrya japonica</em>
+                            </p>
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/35.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/35.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        
+                        
+                        
+          
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae8" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae8" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+
+                    
                   </div>
               </div>
           </div>
@@ -1041,106 +1180,125 @@
                     </p>
                 </div>
                 <div id="w-node-_158b7e47-e969-3fb7-b088-e6b8a6010d18-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                        <div class="w-slider-mask" id="w-slider-mask-0">
 
-                          <div class="slide-3 w-slide" aria-label="1 of 5" role="group" aria-hidden="true"   >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img     alt="" src="./Imagenes/Rosaceae/36.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                            <script type="application/json" class="w-json" aria-hidden="true">
-                              {
-                                "items": 
-                                [
+                  <div id="carouselRosaceae9" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselRosaceae9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae9" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae9" data-bs-slide-to="2"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae9" data-bs-slide-to="3"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae9" data-bs-slide-to="4"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/36.jpg" class="d-block w-100, image-3" alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
                                   {
-                                    "caption": "R. Azcárraga",
-                                    "url": "./Imagenes/Rosaceae/36.jpg",
-                    
-                                    "type": "image",
-                                    "fileSize": 1308256
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/36.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
                                   }
-                                ]
-                              }
-                            </script>
-                            </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="2 of 5" role="group"  >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/37.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "D. Trejo",
-                                "url": "./Imagenes/Rosaceae/37.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
                                 </script>
-                                </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="3 of 5" role="group"  >
-                              <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                  <img      src="./Imagenes/Rosaceae/38.jpg" loading="lazy" alt="" class="image-3">
-                                  <script type="application/json" class="w-json">
-                                      { "items": [{
-                                  "caption": "D. Trejo",
-                                  "url": "./Imagenes/Rosaceae/38.jpg",
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                      } ] }
-                                  </script>
-                                  </a>
-                              </div>
+                        </a>
+                      </div>
 
-                            <div class="slide-4 w-slide" aria-label="4 of 5" role="group"  >
-                              <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                  <img      src="./Imagenes/Rosaceae/39.jpg" loading="lazy" alt="" class="image-3">
-                                  <script type="application/json" class="w-json">
-                                      { "items": [{
-                                  "caption": "D. Trejo",
-                                  "url": "./Imagenes/Rosaceae/39.jpg",
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                      } ] }
-                                  </script>
-                                  </a>
-                              </div>
-                              
-                            <div class="slide-4 w-slide" aria-label="5 of 5" role="group"  >
-                                <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                    <img      src="./Imagenes/Rosaceae/40.jpg" loading="lazy" alt="" class="image-3">
-                                    <script type="application/json" class="w-json">
-                                        { "items": [{
-                                    "caption": "R. Azcárraga",
-                                    "url": "./Imagenes/Rosaceae/40.jpg",
-                                    "type": "image",
-                                    "fileSize": 1308256
-                                        } ] }
-                                    </script>
-                                    </a>
-                                </div>  
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/37.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/37.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/38.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/38.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/39.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/39.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/40.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/40.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
 
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                            </div>
-                            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 5 of 5.</div>
-                            </div>
-                            <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                                <div class="w-icon-slider-left"></div>
-                            </div>
-                            <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                                <div class="w-icon-slider-right"></div>
-                            </div>
-                            <div class="w-slider-nav w-round">
-                            <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 5" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 5" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 5" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 4 of 5" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 5 of 5" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                            </div>
-                            </div>
-                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae9" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae9" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    
                     </div>
                 </div>
         </div> 
@@ -1155,76 +1313,85 @@
   
   
                   <div id="w-node-_148ae3a7-5ca9-18e5-2ddf-5556c3ceab8c-db3e027d" class="contenedorcolumnaderecha">
-                    <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                      <div class="w-slider-mask" id="w-slider-mask-0">
-                        <div class="slide-3 w-slide" aria-label="1 of 3" role="group" aria-hidden="true"   >
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                          <img     alt="" src="./Imagenes/Rosaceae/41.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                          <script type="application/json" class="w-json" aria-hidden="true">
-                            {
-                              "items": 
-                              [
-                                {
-                                  "caption": "R. Azcárraga",
-                                
-                                  "url": "./Imagenes/Rosaceae/41.jpg",
-                  
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                }
-                              ]
-                            }
-                          </script>
-                          </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="2 of 3" role="group"  >
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                              <img      src="./Imagenes/Rosaceae/42.jpg" loading="lazy" alt="" class="image-3">
-                              <script type="application/json" class="w-json">
-                                  { "items": [{
-                              "caption": "D. Trejo",
-                              "url": "./Imagenes/Rosaceae/42.jpg",
-                              "type": "image",
-                              "fileSize": 1308256
-                                  } ] }
-                              </script>
-                              </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="3 of 3" role="group"  >
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/43.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "D. Trejo",
-                                "url": "./Imagenes/Rosaceae/43.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
-                                </script>
-                                </a>
-                            </div>
-
-
-
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                          </div>
-                          <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 3.</div>
-                          </div>
-                          <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                              <div class="w-icon-slider-left"></div>
-                          </div>
-                          <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                              <div class="w-icon-slider-right"></div>
-                          </div>
-                          <div class="w-slider-nav w-round">
-                          <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 3" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 3" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                          </div>
-                          </div>
+                    <div id="carouselRosaceae10" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselRosaceae10" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae10" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselRosaceae10" data-bs-slide-to="2"></button>
+            
+  
                       </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/41.jpg" class="d-block w-100, image-3" alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                          "url": "./Imagenes/Rosaceae/41.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+  
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/42.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por Daniela Trejo",
+                                          "url": "./Imagenes/Rosaceae/42.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                            <img src="./Imagenes/Rosaceae/43.jpg" class="d-block w-100, image-3 " alt="...">
+                            <script type="application/json" class="w-json" aria-hidden="true">
+                                    {
+                                      "items": 
+                                      [
+                                        {
+                                          "caption": "Fotografía tomada por Daniela Trejo",
+                                          "url": "./Imagenes/Rosaceae/43.jpg",
+                          
+                                          "type": "image",
+                                          "fileSize": 1308256
+                                        }
+                                      ]
+                                    }
+                                  </script>
+                          </a>
+                        </div>
+                        
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae10" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae10" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    
                   </div>
               </div>
         </div>
@@ -1245,7 +1412,7 @@
                               "items": 
                               [
                                 {
-                                  "caption": "D. Trejo",
+                                  "caption": "Fotografía de Daniela Trejo",
                                   "url": "./Imagenes/Rosaceae/44.jpg",
                   
                                   "type": "image",
@@ -1266,7 +1433,7 @@
                 <p class="parrafocolumnasrecoizq">
                   Algunas especies representativas son:
                   <br>
-                 <ul class="parrafocolumnasrecoizq">
+                 <ul class="parrafocolumnasreconocimiento">
                    <li style="font-style: italic;">
                      Fragaria spp.
                    </li>
@@ -1282,151 +1449,187 @@
 
 
                 <div id="w-node-_148ae3a7-5ca9-18e5-2ddf-5556c3ceab8c-db3e027d" class="contenedorcolumnaderecha">
-                  <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                    <div class="w-slider-mask" id="w-slider-mask-0">
-                      <div class="slide-3 w-slide" aria-label="1 of 7" role="group" aria-hidden="true"   >
+
+                  <div id="carouselRosaceae11" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselRosaceae11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae11" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae11" data-bs-slide-to="2"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae11" data-bs-slide-to="3"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae11" data-bs-slide-to="4"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae11" data-bs-slide-to="5"></button>
+                      <button type="button" data-bs-target="#carouselRosaceae11" data-bs-slide-to="6"></button>
+          
+
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
                         <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                        <em>Fragaria spp.</em>
-                        </p>
+                          <em>Fragaria spp.</em>
+                          </p>
                         <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                        <img     alt="" src="./Imagenes/Rosaceae/45.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                        <script type="application/json" class="w-json" aria-hidden="true">
-                          {
-                            "items": 
-                            [
-                              {
-                                "caption": "R. Azcárraga",
-                              
-                                "url": "./Imagenes/Rosaceae/45.jpg",
-                
-                                "type": "image",
-                                "fileSize": 1308256
-                              }
-                            ]
-                          }
-                        </script>
-                        </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="2 of 7" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                          <em>Fragaria spp.</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/46.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/46.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
-                            </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="3 of 7" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                          <em>Fragaria spp.</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                              <img      src="./Imagenes/Rosaceae/47.jpg" loading="lazy" alt="" class="image-3">
-                              <script type="application/json" class="w-json">
-                                  { "items": [{
-                              "caption": "R. Azcárraga",
-                              "url": "./Imagenes/Rosaceae/47.jpg",
-                              "type": "image",
-                              "fileSize": 1308256
-                                  } ] }
-                              </script>
-                              </a>
-                          </div>
-                          <div class="slide-4 w-slide" aria-label="4 of 7" role="group"  >
-                            <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Pyracantha koidzumii</em>
-                              </p>
-                            <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                <img      src="./Imagenes/Rosaceae/48.jpg" loading="lazy" alt="" class="image-3">
-                                <script type="application/json" class="w-json">
-                                    { "items": [{
-                                "caption": "D. Trejo",
-                                "url": "./Imagenes/Rosaceae/48.jpg",
-                                "type": "image",
-                                "fileSize": 1308256
-                                    } ] }
+                          <img src="./Imagenes/Rosaceae/45.jpg" class="d-block w-100, image-3" alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/45.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
                                 </script>
-                                </a>
-                            </div>
-                            <div class="slide-4 w-slide" aria-label="5 of 7" role="group"  >
-                              <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                              <em>Pyracantha koidzumii</em>
-                                </p>
-                              <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                  <img      src="./Imagenes/Rosaceae/49.jpg" loading="lazy" alt="" class="image-3">
-                                  <script type="application/json" class="w-json">
-                                      { "items": [{
-                                  "caption": "D. Trejo",
-                                  "url": "./Imagenes/Rosaceae/49.jpg",
-                                  "type": "image",
-                                  "fileSize": 1308256
-                                      } ] }
-                                  </script>
-                                  </a>
-                              </div>
-                              <div class="slide-4 w-slide" aria-label="6 of 7" role="group"  >
-                                <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                                <em>Rosa spp.</em>
-                                  </p>
-                                <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                    <img      src="./Imagenes/Rosaceae/50.jpg" loading="lazy" alt="" class="image-3">
-                                    <script type="application/json" class="w-json">
-                                        { "items": [{
-                                    "caption": "D. Trejo",
-                                    "url": "./Imagenes/Rosaceae/50.jpg",
-                                    "type": "image",
-                                    "fileSize": 1308256
-                                        } ] }
-                                    </script>
-                                    </a>
-                                </div>
-                                <div class="slide-4 w-slide" aria-label="7 of 7" role="group"  >
-                                  <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                                  <em>Rosa spp.</em>
-                                    </p>
-                                  <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                                      <img      src="./Imagenes/Rosaceae/51.jpg" loading="lazy" alt="" class="image-3">
-                                      <script type="application/json" class="w-json">
-                                          { "items": [{
-                                      "caption": "D. Trejo",
-                                      "url": "./Imagenes/Rosaceae/51.jpg",
-                                      "type": "image",
-                                      "fileSize": 1308256
-                                          } ] }
-                                      </script>
-                                      </a>
-                                  </div>
+                        </a>
+                      </div>
+
+                      <div class="carousel-item">
+                        <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                          <em>Fragaria spp.</em>
+                            </p>
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/46.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/46.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                          <em>Fragaria spp.</em>
+                            </p>
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/47.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                        "url": "./Imagenes/Rosaceae/47.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                          <em>Pyracantha koidzumii</em>
+                            </p>
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/48.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/48.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                          <em>Pyracantha koidzumii</em>
+                            </p>
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/49.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/49.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                          <em>Rosa spp.</em>
+                            </p>
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/50.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/50.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                          <em>Rosa spp.</em>
+                            </p>
+                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                          <img src="./Imagenes/Rosaceae/51.jpg" class="d-block w-100, image-3 " alt="...">
+                          <script type="application/json" class="w-json" aria-hidden="true">
+                                  {
+                                    "items": 
+                                    [
+                                      {
+                                        "caption": "Fotografía tomada por Daniela Trejo",
+                                        "url": "./Imagenes/Rosaceae/51.jpg",
+                        
+                                        "type": "image",
+                                        "fileSize": 1308256
+                                      }
+                                    ]
+                                  }
+                                </script>
+                        </a>
+                      </div>
                       
-
-
-                        <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                        </div>
-                        <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 7 of 7.</div>
-                        </div>
-                        <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                            <div class="w-icon-slider-left"></div>
-                        </div>
-                        <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                            <div class="w-icon-slider-right"></div>
-                        </div>
-                        <div class="w-slider-nav w-round">
-                        <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 7" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 7" aria-pressed="true" role="button" tabindex="0" style="margin: 3px"></div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 7" aria-pressed="true" role="button" tabindex="0" style="margin: 3px"></div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 4 of 7" aria-pressed="true" role="button" tabindex="0" style="margin: 3px"></div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 5 of 7" aria-pressed="true" role="button" tabindex="0" style="margin: 3px"></div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 6 of 7" aria-pressed="true" role="button" tabindex="0" style="margin: 3px"></div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 7 of 7" aria-pressed="true" role="button" tabindex="0" style="margin: 3px"></div>
-                        </div>
-                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae11" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae11" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  
                     </div>
                 </div>
             </div>
@@ -1438,61 +1641,75 @@
                   <span class="subdivision" style="font-weight: 900; font-size: 140%; margin-bottom: 2%;"> Prunoideae </span> 
                 <br>
                 Fruto una drupa.
+                <br>
+                Gineceo de un solo pistilo, rara vez de 2 a 5.
+
                 </p>
             </div>
             <div id="w-node-_158b7e47-e969-3fb7-b088-e6b8a6010d18-db3e027d" class="contenedorcolumnaderecha">
-                <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                    <div class="w-slider-mask" id="w-slider-mask-0">
+              <div id="carouselRosaceae12" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselRosaceae12" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae12" data-bs-slide-to="1"></button>
+                 
 
-                      <div class="slide-3 w-slide" aria-label="1 of 2" role="group" aria-hidden="true"   >
-                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                        <img     alt="" src="./Imagenes/Rosaceae/52.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                        <script type="application/json" class="w-json" aria-hidden="true">
-                          {
-                            "items": 
-                            [
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/52.jpg" class="d-block w-100, image-3" alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
                               {
-                                "caption": "R. Azcárraga",
-                                "url": "./Imagenes/Rosaceae/52.jpg",
-                
-                                "type": "image",
-                                "fileSize": 1308256
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/52.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
                               }
-                            ]
-                          }
-                        </script>
-                        </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="2 of 2" role="group"  >
-                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/53.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/53.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
                             </script>
-                            </a>
-                        </div>
-                        
-                        <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                        </div>
-                        <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 2 of 2.</div>
-                        </div>
-                        <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                            <div class="w-icon-slider-left"></div>
-                        </div>
-                        <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                            <div class="w-icon-slider-right"></div>
-                        </div>
-                        <div class="w-slider-nav w-round">
-                        <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 2" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 2" aria-pressed="true" role="button" tabindex="0" style="margin: 3px"></div>
-                        </div>
-                    </div>
+                    </a>
+                  </div>
+
+                  <div class="carousel-item">
+                    
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/53.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/53.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
+                            </script>
+                    </a>
+                  </div>
+                 
+                  
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae12" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae12" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                
                 </div>
             </div>
       </div> 
@@ -1505,60 +1722,69 @@
                 </p>
             </div>
             <div id="w-node-_148ae3a7-5ca9-18e5-2ddf-5556c3ceab8c-db3e027d" class="contenedorcolumnaderecha">
-                <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                    <div class="w-slider-mask" id="w-slider-mask-0">
+              <div id="carouselRosaceae13" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselRosaceae13" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae13" data-bs-slide-to="1"></button>
+                 
 
-                      <div class="slide-3 w-slide" aria-label="1 of 2" role="group" aria-hidden="true"   >
-                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                        <img     alt="" src="./Imagenes/Rosaceae/54.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                        <script type="application/json" class="w-json" aria-hidden="true">
-                          {
-                            "items": 
-                            [
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/54.jpg" class="d-block w-100, image-3" alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
                               {
-                                "caption": "R. Azcárraga",
-                                "url": "./Imagenes/Rosaceae/54.jpg",
-                
-                                "type": "image",
-                                "fileSize": 1308256
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/54.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
                               }
-                            ]
-                          }
-                        </script>
-                        </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="2 of 2" role="group"  >
-                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/55.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/55.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
                             </script>
-                            </a>
-                        </div>
-                       
-                        
-                        <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                        </div>
-                        <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 2 of 2.</div>
-                        </div>
-                        <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                            <div class="w-icon-slider-left"></div>
-                        </div>
-                        <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                            <div class="w-icon-slider-right"></div>
-                        </div>
-                        <div class="w-slider-nav w-round">
-                        <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 2" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 2" aria-pressed="true" role="button" tabindex="0" style="margin: 3px"></div>
-                        
-                        </div>
-                    </div>
+                    </a>
+                  </div>
+
+                  <div class="carousel-item">
+                    
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/55.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/55.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
+                            </script>
+                    </a>
+                  </div>
+                 
+                  
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae13" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae13" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+               
                 </div>
             </div>
       </div>
@@ -1578,7 +1804,7 @@
                             "items": 
                             [
                               {
-                                "caption": "R. Azcárraga",
+                                "caption": "Fotografía tomada por la Doctora Azcarraga",
                                 "url": "./Imagenes/Rosaceae/56.jpg",
                 
                                 "type": "image",
@@ -1611,193 +1837,236 @@
                 </p>
             </div>
             <div id="w-node-_148ae3a7-5ca9-18e5-2ddf-5556c3ceab8c-db3e027d" class="contenedorcolumnaderecha">
-                <div    class="sliderfamilias w-slider"   data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"   data-infinite="true" role="region" aria-label="carousel">
-                    <div class="w-slider-mask" id="w-slider-mask-0">
 
-                      <div class="slide-3 w-slide" aria-label="1 of 9" role="group" aria-hidden="true"   >
-                        <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                          <em>Prunus domestica</em>
-                          </p>
-                        <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                        <img     alt="" src="./Imagenes/Rosaceae/57.jpg" loading="lazy" class="image-3" aria-hidden="true">
-                        <script type="application/json" class="w-json" aria-hidden="true">
-                          {
-                            "items": 
-                            [
+
+              <div id="carouselRosaceae14" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="4"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="5"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="6"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="7"></button>
+                  <button type="button" data-bs-target="#carouselRosaceae14" data-bs-slide-to="8"></button>
+      
+
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus domestica</em>
+                      </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/57.jpg" class="d-block w-100, image-3" alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
                               {
-                                "caption": "R. Azcárraga",
-                                "url": "./Imagenes/Rosaceae/57.jpg",
-                
-                                "type": "image",
-                                "fileSize": 1308256
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/57.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
                               }
-                            ]
-                          }
-                        </script>
-                        </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="2 of 9" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Prunus domestica</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/58.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/58.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
                             </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="3 of 9" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Prunus domestica</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/59.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/59.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
+                    </a>
+                  </div>
+
+                  <div class="carousel-item">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus domestica</em>
+                        </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/58.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/58.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
                             </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="4 of 9" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Prunus cerasifera</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/60.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/60.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus domestica</em>
+                        </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/59.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/59.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
                             </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="5 of 9" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Prunus cerasifera</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/61.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/61.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus cerasifera</em>
+                        </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/60.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/60.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
                             </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="6 of 9" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Prunus persica</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/62.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/62.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus cerasifera</em>
+                        </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/61.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/61.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
                             </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="7 of 9" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Prunus persica</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/63.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/63.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus persica</em>
+                        </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/62.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/62.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
                             </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="8 of 9" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Prunus serotina</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                            <img      src="./Imagenes/Rosaceae/64.jpg" loading="lazy" alt="" class="image-3">
-                            <script type="application/json" class="w-json">
-                                { "items": [{
-                            "caption": "R. Azcárraga",
-                            "url": "./Imagenes/Rosaceae/64.jpg",
-                            "type": "image",
-                            "fileSize": 1308256
-                                } ] }
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus persica</em>
+                        </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/63.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/63.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
                             </script>
-                            </a>
-                        </div>
-                        <div class="slide-4 w-slide" aria-label="8 of 9" role="group"  >
-                          <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
-                            <em>Prunus serotina</em>
-                            </p>
-                          <a href="#" class="lightbox-link w-inline-block w-lightbox">
-                              <img      src="./Imagenes/Rosaceae/65.jpg" loading="lazy" alt="" class="image-3">
-                              <script type="application/json" class="w-json">
-                                  { "items": [{
-                              "caption": "R. Azcárraga",
-                              "url": "./Imagenes/Rosaceae/65.jpg",
-                              "type": "image",
-                              "fileSize": 1308256
-                                  } ] }
-                              </script>
-                              </a>
-                          </div>
-                       
-                        
-                        
-                        <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">
-                        </div>
-                        <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 9 of 9.</div>
-                        </div>
-                        <div class="w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide">
-                            <div class="w-icon-slider-left"></div>
-                        </div>
-                        <div class="w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide">
-                            <div class="w-icon-slider-right"></div>
-                        </div>
-                        <div class="w-slider-nav w-round">
-                        <div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 9" aria-pressed="false" role="button" tabindex="-1" style="margin: 3px;">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 2 of 9" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 9" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 4 of 9" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 5 of 9" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 6 of 9" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 7 of 9" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 8 of 9" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                        </div>
-                        <div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 9 of 9" aria-pressed="true" role="button" tabindex="0" style="margin: 3px">
-                        </div>
-                        </div>
-                    </div>
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus serotina</em>
+                        </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/64.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/64.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
+                            </script>
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="position: relative; align-content: center; color:rgb(5, 3, 36); font-weight: 400; text-align: center;">
+                      <em>Prunus serotina</em>
+                        </p>
+                    <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                      <img src="./Imagenes/Rosaceae/65.jpg" class="d-block w-100, image-3 " alt="...">
+                      <script type="application/json" class="w-json" aria-hidden="true">
+                              {
+                                "items": 
+                                [
+                                  {
+                                    "caption": "Fotografía tomada por la Doctora Azcarraga",
+                                    "url": "./Imagenes/Rosaceae/65.jpg",
+                    
+                                    "type": "image",
+                                    "fileSize": 1308256
+                                  }
+                                ]
+                              }
+                            </script>
+                    </a>
+                  </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRosaceae14" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRosaceae14" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+                
                 </div>
             </div>
         </div>
@@ -1843,7 +2112,7 @@
                             "items": 
                             [
                               {
-                                "caption": "R. Azcárraga",
+                                "caption": "Fotografía tomada por la Doctora Azcarraga",
                                 "url": "./Imagenes/Rosaceae/66.jpg",
                                 "type": "image",
                                 "fileSize": 1308256
@@ -1857,17 +2126,17 @@
         </div>
       </main>
 
-      <div class="subtitulo"><h3 class="subtitulotexto">Importancia económica</h3></div>
+      <div class="subtitulo"><h3 class="subtitulotexto">Importancia economica</h3></div>
 
       <div class="textoimportanciaeconomica">
         <p class="parrafoimportanciaeco" >
             La familia Rosaceae provee de la mayor diversidad de frutales de clima templado en el mundo, 
             con antigua historia de cultivo y domesticación en Asia y Medio oriente como lugares de origen y, 
             actualmente de distribución y consumo mundial, juegan un papel importante en la alimentación humana como fuente de carbohidratos,
-            azucares, fibras, vitaminas y minerales; especies como: <em>Cydonia oblonga</em> (membrillo); <em>Eriobotrya joponica</em> (níspero), <em>Malus communis</em> (manzano); 
-            <em>Prunus spinosa</em> (ciruela endrina); <em>P. amygdalus</em> (almendra); <em>P. armeniaca</em> (chabacano); <em>P. avium</em> (cereza dulce); <em>P. cerasus</em> (cereza agria);
+            azucares, fibras, vitaminas y minerales; especies como: <em>oblonga</em> (membrillo); <em>Eriobotrya joponica</em> (níspero), <em>Malus communis</em> (manzano); 
+            <em>Prunus spinosa</em> (ciruela endrina); <em>P. amygdalus</em> (almendra); <em>P. armeniaca</em> (chabacano); <em>P. avium</em> (cereza dulce); <em>P.cerasus</em> (cereza agria);
             <em></em>P. domestica (ciruela común); <em></em>P. persica (durazno); y <em></em>Pyrus communis (peral); aunados a especies americanas como el tejocote   <em></em>Crataegus pubescens,
-            fresas <em>Fragaria spp.</em>, y el capulín <em>Prunus serotina</em>, son frutos que se pueden consumir frescos o como base de múltiples alimentos como compotas, 
+            fresas <em>Fragaria spp.</em>, y el capulín <em>Prunus serótina</em>, son frutos que se pueden consumir frescos o como base de múltiples alimentos como compotas, 
             tartas, conservas, confituras, jugos, bebidas frescas o fermentadas, ensaladas, cocteles o diversos guisos, de alto valor nutritivo. 
             Son materia prima no solo para la industria, coadyuvan al desarrollo regional, ya que, en nuestro país, en comunidades de clima templado 
             es frecuente su proceso tradicional para la elaboración de conservas o bebidas generalmente alcohólicas, que contribuyen a mejorar 
@@ -1880,7 +2149,7 @@
           refieren el uso de estas especies.
         </p>
         <p class="parrafoimportanciaeco">
-          En cuanto a uso ornamental, el género <em>Rosa spp.</em>, con diversas especies, es una de las principales plantas de flor cortada en el mundo y 
+          En cuanto a uso ornamental, el género <em>rosa spp.</em>, con diversas especies, es una de las principales plantas de flor cortada en el mundo y 
           representada por infinidad de rosedales en jardines públicos y privados de todos los niveles socioeconómicos. Especies como <em>Pyracantha coccinea</em> 
           y <em>P. koidzumi</em> (piracanto), así como integrantes de los géneros <em>Cotoneaster, Photinia</em> y <em>Spiraea</em>, son importantes para setos.
         </p>
